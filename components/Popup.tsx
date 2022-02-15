@@ -110,7 +110,7 @@ export default function Popup({ close }: Props) {
 					>
 						<span>Balance</span>
 						{balances && <span>
-							{balances?.[0] ? `${formatEther(balances[0])}` : null}
+							{balances?.[0] ? `${formatEther(balances[0])}ETH` : '0ETH'}
 						</span>}
 					</div>
 					<button 
